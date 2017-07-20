@@ -1,12 +1,22 @@
-/////////////////////////////////////////////////////////////////////////////
-// Name:        Common.h
-// Purpose:     Common namespace
-// Author:      Balázs Tóth
-// Modified by:
-// Created:     10/07/2016
-// Copyright:   (c) Common utils
-// Licence:     GPL
-/////////////////////////////////////////////////////////////////////////////
+/*
+    Copyright 2016-2017 Balazs Toth
+    This file is part of CommonUtils.
+
+    CommonUtils is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    CommonUtils is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with CommonUtils.  If not, see <http://www.gnu.org/licenses/>.
+
+    For more information please visit: https://bitbucket.org/CommonUtilsproject/
+*/
 
 #ifndef _COMMON_H_
 #define _COMMON_H_
