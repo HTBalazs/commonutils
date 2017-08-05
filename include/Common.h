@@ -27,9 +27,12 @@
 #include <sstream>
 
 namespace Common {
-	std::string to_string(float const& number);
-	std::string to_string(size_t const& number);
-	std::vector<int> find_word(std::string const& text, std::string const& word);
+    template <typename T> std::string to_string(T const& number) {
+        std::ostringstream buffer;
+        buffer << number;
+        return std::string{buffer.str()}; 
+    }
+    std::vector<int> find_word(std::string const& text, std::string const& word);
 }
 
 #endif //_COMMON_H_
