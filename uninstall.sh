@@ -1,6 +1,6 @@
 #!/bin/sh
 
 # remove includes
-sudo rm -r /usr/local/include/commonutils
+sudo rm -r ~/local/include/commonutils
 # remove library files
-sudo rm -r /usr/local/lib/commonutils
+sudo rm -r ~/local/lib/commonutils
